@@ -8,8 +8,8 @@ Versión Unificada - Control de Robot con MPU6050, Ultrasónico, SCD30 y MQ-2
 # ========================
 SAFE_START = False  # True para iniciar sin ejecutar loop principal (modo seguro)
 DEBUG_ENABLED = True
-DEVICE_NAME = "ESP32-Robot-MultiSensor-MQ2-01"
-LOCATION = "Lab-Principal"
+DEVICE_NAME = ""
+LOCATION = ""
 
 # ========================
 # CONFIGURACIÓN WIFI
@@ -21,8 +21,8 @@ WIFI_TIMEOUT = 30  # segundos
 # ========================  
 # CONFIGURACIÓN MQTT
 # ========================
-MQTT_BROKER = "192.168.0.0"
-MQTT_PORT = 1883                        
+MQTT_BROKER = ""
+MQTT_PORT = ""                     
 MQTT_USER = None
 MQTT_PASSWORD = None
 MQTT_KEEPALIVE = 180  # segundos
