@@ -14,14 +14,14 @@ LOCATION = "Lab-Principal"
 # ========================
 # CONFIGURACIÓN WIFI
 # ========================
-WIFI_SSID = "ROBMA"
-WIFI_PASSWORD = "ROBMA2023"
+WIFI_SSID = ""
+WIFI_PASSWORD = ""
 WIFI_TIMEOUT = 30  # segundos
 
 # ========================  
 # CONFIGURACIÓN MQTT
 # ========================
-MQTT_BROKER = "192.168.2.103"
+MQTT_BROKER = "192.168.0.0"
 MQTT_PORT = 1883                        
 MQTT_USER = None
 MQTT_PASSWORD = None
